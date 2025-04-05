@@ -1,31 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Archive</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>escribí una carta</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>My Archive</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-        </nav>
-    </header>
-    
-    <main>
-        <h2>Welcome to My Archive</h2>
-        <p>This is a simple archive website hosted on GitHub Pages.</p>
-        <ul>
-            <li><a href="posts/post1.html">First Post</a></li>
-            <li><a href="posts/post2.html">Second Post</a></li>
-        </ul>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 My Archive</p>
-    </footer>
+  <div class="container">
+    <h2>enviar mensaje a claudia</h2>
+    <form id="letterForm">
+      <input type="text" id="name" placeholder="nombre" required>
+      <input type="email" id="email" placeholder="email" required>
+      <textarea id="message" placeholder="escribí tu mensaje <3 " required></textarea>
+      <button type="submit">enviar</button>
+    </form>
+  </div>
 </body>
 </html>
